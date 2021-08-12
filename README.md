@@ -8,7 +8,7 @@ E-MAIL: atzhou@cse.ust.hk
 
 Please E-mail me with any queries about the code or the subsequent paper.
 
-We provide the IMDB dataset, which we have assigned each edge an existential probabilities, in the file format use for our implementation. Further information regarding the IMDB dataset may be found at https://www.cise.ufl.edu/research/sparse/matrices/Pajek/IMDB.html
+We provide the IMDB dataset, which we have assigned each edge an existential probabilities, in the file format used for our implementation. Further information regarding the IMDB dataset may be found at https://www.cise.ufl.edu/research/sparse/matrices/Pajek/IMDB.html
 
 # Arguments
 
@@ -38,7 +38,7 @@ argv[3] = ID File
 	
 argv[4] = Edge File
 
-	*	tsv formal (ID1\tID2\tProbability)
+	*	tsv formal (ID1	ID2 Probability)
 
 argv[5] = # of samples (optional)
 

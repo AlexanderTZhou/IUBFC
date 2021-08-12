@@ -1,4 +1,4 @@
-# UncertainButterflyCounting
+# Uncertain Butterfly Counting
 
 AUTHOR: Alexander Zhou
 
@@ -6,7 +6,7 @@ INSTITUTION: Hong Kong University of Science and Technology
 
 E-MAIL: atzhou@cse.ust.hk
 
-Please E-mail me with any queries about the code or the subsequent paper but given when the mail is sent there is a non-zero (very likely) chance I have already forgotten everything about the code.
+Please E-mail me with any queries about the code or the subsequent paper.
 
 # Arguments
 
@@ -28,9 +28,15 @@ argv[1] = Process Type
 
 argv[2] = Threshold Probability
 
+	*	Between 0.0 and 1.0
+	
 argv[3] = ID File
 
+	*	Containing all IDs, non-repeating
+	
 argv[4] = Edge File
+
+	*	tsv formal (ID1\tID2\tProbability)
 
 argv[5] = # of samples (optional)
 

@@ -21,10 +21,10 @@ argv[1] = Process Type
 	*	4 : UBS-Edge
 	*	5 : PES-Vertex
 	*	6 : PES-Edge
-	*	13 : Multiple UBS-Vertex Runs
-	*	14 : Multiple UBS-Edge Runs
-	*	15 : Multiple PES-Vertex Runs
-	*	16 : Multiple PES-Edge Runs
+	*	13 : 500 UBS-Vertex Runs
+	*	14 : 500 UBS-Edge Runs
+	*	15 : 500 PES-Vertex Runs
+	*	16 : 500 PES-Edge Runs
 
 argv[2] = Threshold Probability
 
@@ -46,4 +46,13 @@ argv[5] = # of samples (optional)
 argv[6] = Output File (optional)
 	
 	*	Required for processes 13, 14, 15 and 16
-	*	Required for processes 
+	
+Examples:
+
+Run Baseline with threshold 0.7
+
+	*	./iubfc 0 0.7 dataID.txt dataEdge.txt
+
+Run UBS-Vertex 500 times at threshold 0.5, each batch containing 10,000 samples
+	
+	*	./iubfc 13 0.5 dataID.txt dataEdge.txt 10000 dataOut.txt

@@ -10,6 +10,8 @@ Please E-mail me with any queries about the code or the subsequent paper.
 
 We provide the IMDB dataset, which we have assigned each edge an existential probabilities, in the file format used for our implementation. Further information regarding the IMDB dataset may be found at https://www.cise.ufl.edu/research/sparse/matrices/Pajek/IMDB.html
 
+The raw additional datasets in the paper can be found at http://konect.cc/networks/
+
 # Arguments
 
 argv[0] = ./iubfc

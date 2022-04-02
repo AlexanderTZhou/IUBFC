@@ -14,7 +14,7 @@ The raw additional datasets in the paper can be found at http://konect.cc/networ
 
 # Arguments
 
-argv[0] = ./iubfc
+argv[0] = ./ubfc
 
 argv[1] = Process Type
 
